@@ -2,6 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.wrapper {
+    background: linear-gradient(45deg, rgba(183,208,255,0.8071603641456583) 0%, rgba(255,190,231,0.773546918767507) 100%);
+    position: relative;
+    width: 100%;
+    height: 100%;
 }
 .navbar-brand img {
     animation: movedown 1s linear 1 1s forwards;
@@ -36,7 +43,7 @@
     transform: rotate(-90deg);
     position: absolute;
     left: -115px;
-    top: 70%;
+    top: 64%;
     animation: moveup 1s linear 1 6s forwards;
     visibility: hidden;
 }
@@ -53,9 +60,10 @@
 }
 .social-icons a {
     text-decoration: none;
-    color: #6a7199;
     font-size: 14px;
     padding-right: 15px;
+    color: #0e0d0d;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .social-icons i {
     padding-right: 5px;
